@@ -31,10 +31,10 @@ let doc = document.documentElement
 
 window.addEventListener('scroll', function() {
     let value = parseInt(100 * doc.scrollTop / (doc.scrollHeight - doc.clientHeight))
-    elem = value + '%'
+    elem = value + 'vw'
     /* console.log(doc.scrollTop) */
 
-    if (value < 35) {
+    if (value < 50) {
         buttonret.style.visibility = 'hidden';
         buttonret.style.opacity = '0';
     } else {
