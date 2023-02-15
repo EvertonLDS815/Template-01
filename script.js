@@ -26,23 +26,23 @@ const buttonReturn = () => {
 
 //animation-button-scroll
 
-let elem = document.getElementById('perc')
-let doc = document.documentElement
+// let elem = document.getElementById('perc')
+// let doc = document.documentElement
 
-window.addEventListener('scroll', function() {
-    let value = parseInt(100 * doc.scrollTop / (doc.scrollHeight - doc.clientHeight))
-    elem = value + 'vw'
-    /* console.log(doc.scrollTop) */
+// window.addEventListener('scroll', function() {
+//     let value = parseInt(100 * doc.scrollTop / (doc.scrollHeight - doc.clientHeight))
+//     elem = value + 'vw'
+//     /* console.log(doc.scrollTop) */
 
-    if (value < 50) {
-        buttonret.style.visibility = 'hidden';
-        buttonret.style.opacity = '0';
-    } else {
-        buttonret.style.visibility = 'visible';
-        buttonret.style.opacity = '1';
-    }
-})
+//     if (value < 50) {
+//         buttonret.style.visibility = 'hidden';
+//         buttonret.style.opacity = '0';
+//     } else {
+//         buttonret.style.visibility = 'visible';
+//         buttonret.style.opacity = '1';
+//     }
+// })
 
-const topScroll = () => {
-    window.scrollTo(0, 0);
-}
+// const topScroll = () => {
+//     window.scrollTo(0, 0);
+// }
