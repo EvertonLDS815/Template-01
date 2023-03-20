@@ -11,4 +11,4 @@
 <img src="./imgs/redme.png" width="700">
 
 <h2>Mobile</h2>
-<img src="./imgs/readme-mob.jpeg" width="340">
+<img src="./imgs/readme-mob.png" width="340">
